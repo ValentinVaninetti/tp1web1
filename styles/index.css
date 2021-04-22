@@ -1,6 +1,28 @@
+body {
+    background-image: url(../images/lichking.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .titulo {
-    font-family: unset;
-    src: local(lifecraft_font);
-    
-    
+    font-family: 'lifecraft' , sans-serif;
+    font-size: 80px;   
+}
+.header {
+    display: flex;
+    flex-direction: column;
+}
+.logo {
+    font-size: 100px;    
+    color: red;
+    font-family: 'lifecraft' , sans-serif;
+}
+.logo2 {
+    font-size: 100px;
+    color: blue;
+    font-family: 'lifecraft' , sans-serif;
+}
+.headerContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
