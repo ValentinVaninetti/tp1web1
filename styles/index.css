@@ -48,3 +48,6 @@ body {
     align-content: flex-end;
     border: 1px solid green
 }
+.footer {
+    border: 1px solid pink
+}
