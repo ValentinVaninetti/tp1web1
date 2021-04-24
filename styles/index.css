@@ -7,6 +7,10 @@ body {
 .title {
     font-family: 'lifecraft' , sans-serif;
     font-size: 80px;
+    text-align: center;
+    text-transform: capitalize;
+    
+}
     
 }
 .header {
