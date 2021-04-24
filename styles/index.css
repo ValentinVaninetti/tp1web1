@@ -36,15 +36,15 @@ body {
 }
 .content {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
     border: 1px solid yellow
 }
-.leftcontent {
-    align-items: flex-start;
+.leftContent {  
+    align-content: flex-start;
     border: 1px solid greenyellow
 }
-.rightcontent {
-    align-items: flex-end;
+.rightContent {    
+    align-content: flex-end;
     border: 1px solid green
 }
