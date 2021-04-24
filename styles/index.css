@@ -41,7 +41,9 @@ body {
 }
 .leftcontent {
     align-items: flex-start;
+    border: 1px solid greenyellow
 }
 .rightcontent {
     align-items: flex-end;
+    border: 1px solid green
 }
