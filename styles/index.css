@@ -5,24 +5,37 @@ body {
 }
 .titulo {
     font-family: 'lifecraft' , sans-serif;
-    font-size: 80px;   
+    font-size: 80px;
+      
 }
 .header {
     display: flex;
     flex-direction: column;
+    border: 1px solid blue
+    
 }
 .logo {
     font-size: 100px;    
     color: red;
     font-family: 'lifecraft' , sans-serif;
+    border: 1px solid green
+    
 }
 .logo2 {
     font-size: 100px;
     color: blue;
     font-family: 'lifecraft' , sans-serif;
+    border: 1px solid white
+    
 }
 .headerContent{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    border: 1px solid yellow
+}
+.content {
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid yellow
 }
