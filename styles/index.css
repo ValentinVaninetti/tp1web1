@@ -55,3 +55,9 @@ body {
 .footer {
     border: 1px solid pink
 }
+.tableContent {
+    justify-content: space-around;
+}
+table,th,tr {
+    border: 1px solid black;
+}
