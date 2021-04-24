@@ -3,7 +3,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.titulo {
+.title {
     font-family: 'lifecraft' , sans-serif;
     font-size: 80px;
       
@@ -46,7 +46,7 @@ body {
 }
 .rightContent {    
     align-content: flex-end;
-    border: 1px solid green
+    border: 1px solid rgb(45, 192, 45)
 }
 .footer {
     border: 1px solid pink
