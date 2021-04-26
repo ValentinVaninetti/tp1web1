@@ -55,10 +55,22 @@ body {
 .footer {
     border: 1px solid pink
 }
-.tableContent {
-    justify-content: space-around;
-}
+
+
 table,th,tr,td {
     border: 1px solid black;
     font-family: 'lifecraft' , sans-serif;
+    
+}
+
+.hordetable{
+    background-color: rgba(155, 20, 20, 0.747);
+    width: 100%;
+}
+.alliancetable{
+    background-color: rgb(33, 33, 155);
+    width: 100%;
+}
+.panda{
+    width: 100%;
 }
