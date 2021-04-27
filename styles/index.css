@@ -27,6 +27,10 @@ body {
     border: 1px solid black
     
 }
+.botonindex {
+    background-color: red;
+    
+}
 .headerContent{
     display: flex;
     flex-direction: row;
