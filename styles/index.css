@@ -90,6 +90,7 @@ a{
 }
 .boton-recomendaciones{
     background-color: red;
+    font-size: 15px;
 }
 .headerContent{
     display: flex;
