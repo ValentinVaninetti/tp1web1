@@ -82,10 +82,11 @@ a{
 
 .boton-index {
     background-color: red;
-    text
+    font-size: 15px;
 }
 .boton-historia{
     background-color: red;
+    font-size: 15px;
 }
 .boton-recomendaciones{
     background-color: red;
