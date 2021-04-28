@@ -60,6 +60,20 @@ a{
     flex-direction: column;   
     
 }
+.formInicio{
+    color: rgb(77, 11, 11);
+    text-transform: capitalize;
+    font-size: 20px;
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: goldenrod;
+}
+.formFeedback{
+    color: rgb(77, 11, 11);
+    text-transform: capitalize;
+    font-size: 20px;
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: goldenrod;
+}
 .imputInicio{
     width: 100%;
   
@@ -83,12 +97,12 @@ a{
 .boton-index {
     background-color: red;
     font-size: 15px;
-    padding; 100px
+    
 }
 .boton-historia{
     background-color: red;
     font-size: 15px;
-    paddin
+
 }
 .boton-recomendaciones{
     background-color: red;
@@ -115,6 +129,7 @@ a{
     align-content: flex-end;
     border: 1px solid rgb(143, 143, 22)
 }
+
 .content{
     flex-direction: row;
     justify-content: space-around;
@@ -127,12 +142,10 @@ a{
     font-size: 18px;
     margin-right: 25px;
     margin-left: 25px;
-}
 
-.footer {
-    border: 1px solid pink
+    word-spacing: 5pt;
+    line-height: 20pt;
 }
-
 
 table,th,tr,td {
     border: 1px solid black;
