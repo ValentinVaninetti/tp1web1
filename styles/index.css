@@ -6,6 +6,9 @@
 }
 .recomendaciones{
     background-image: url("../images/reco.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 
 }
 .historia{
@@ -17,14 +20,14 @@
 }
 a{
     text-decoration: none;
-    color: yellow;
-    
+    color: yellow;    
 }
 .title {
     font-family: 'lifecraft' , sans-serif;
     font-size: 80px;
-    text-align: center;
-    text-transform: capitalize;    
+    text-align: center;    
+    text-transform: capitalize;
+       
 }
 .titulo2{
     font-size: 60px;
@@ -33,21 +36,14 @@ a{
 }
 .header {
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;   
     
 }
 .logo {
-    border: transparent;
-    
-    
-    
-    
+    border: transparent;   
 }
 .logo2 {
-    border: transparent;
-    
-    
+    border: transparent;   
 }
 .boton-index {
     background-color: red;   

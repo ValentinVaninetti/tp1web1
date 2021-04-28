@@ -1,3 +1,4 @@
+console.log
 let btnEnviar = document.getElementById("send");
 
 btnEnviar.addEventListener("click", function(){
