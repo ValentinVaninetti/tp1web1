@@ -26,6 +26,11 @@ a{
     text-align: center;
     text-transform: capitalize;    
 }
+.titulo2{
+    font-size: 60px;
+    font-family: 'lifecraft' , sans-serif;
+    text-align: center;
+}
 .header {
     display: flex;
     flex-direction: column;
@@ -57,7 +62,7 @@ a{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    border: 1px solid yellow
+    
 }
 .nav {
     display: flex;
@@ -84,6 +89,7 @@ a{
     flex-direction: row;
     justify-content: space-around;
     font-family: 'lifecraft' , sans-serif;
+    text-align: justify;
 }
 .p-index{
     color: rgb(143, 143, 22);
@@ -113,3 +119,4 @@ table,th,tr,td {
 .panda{
     width: 100%;
 }
+
