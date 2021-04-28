@@ -86,6 +86,8 @@ a{
 }
 .p-index{
     color: rgb(143, 143, 22);
+    text-decoration: double;
+    font-size: 22px;
 }
 
 .footer {
