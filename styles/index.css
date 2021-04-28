@@ -27,8 +27,11 @@ a{
     font-size: 80px;
     text-align: center;    
     text-transform: capitalize;
+    color: rgb(100, 12, 12);
+    text-decoration: yellow;
        
 }
+
 .titulo2{
     font-size: 60px;
     font-family: 'lifecraft' , sans-serif;
