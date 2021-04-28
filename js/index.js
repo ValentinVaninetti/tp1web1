@@ -20,9 +20,9 @@ btnEnviar.addEventListener("click", function(){
     //alert("esta mal");
     //divResultado.innerHTML = "Captcha incorrecto"
     let link = document.createElement("a");
-    link.innerText = "recomendacion";
+    link.innerText = "Recomendaciones";
     link.href = "recomendaciones.html";
     divResultado.appendChild(link);
-    
+    divResultado.innerHTML = "Captcha incorrecto"
   }
 });
