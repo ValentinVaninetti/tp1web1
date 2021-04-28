@@ -20,8 +20,8 @@ btnEnviar.addEventListener("click", function(){
     //alert("esta mal");
     //divResultado.innerHTML = "Captcha incorrecto"
     let link = document.createElement("a");
-    link.innerText = "Ir a google";
-    link.href = "www.google.com";
+    link.innerText = "recomendacion";
+    link.href = "recomendaciones.html";
     divResultado.appendChild(link);
     
   }

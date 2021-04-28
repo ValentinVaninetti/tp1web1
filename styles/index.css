@@ -28,7 +28,8 @@ a{
     text-align: center;    
     text-transform: capitalize;
     color: rgb(100, 12, 12);
-    text-decoration: yellow;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: goldenrod;
        
 }
 
