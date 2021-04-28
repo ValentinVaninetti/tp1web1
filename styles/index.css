@@ -1,5 +1,5 @@
 .index {
-    background-image: url("../images/lichking.jpg");    
+    background-image: url("../images/index2.jpg");    
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -84,6 +84,7 @@ a{
     font-family: 'lifecraft' , sans-serif;
 
 }
+
 .footer {
     border: 1px solid pink
 }
