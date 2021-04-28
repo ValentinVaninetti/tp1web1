@@ -64,7 +64,7 @@ a{
     width: 100%;
   
   
-  display: inline-block;
+  display: block;
   border: 1px solid #ccc;
   border-radius: 2px;
   box-sizing: border-box;
@@ -74,14 +74,15 @@ a{
     width: 100%;
   padding: 22px 30px;
   margin: 16px 0;
-  display: inline-block;
+  display: block;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
 }
 
 .boton-index {
-    background-color: red;   
+    background-color: red;
+    te
 }
 .boton-historia{
     background-color: red;
