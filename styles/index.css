@@ -1,16 +1,18 @@
-body {
-    background-color: white;
+.index {
+    background-image: url("../images/lichking.jpg");    
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
+
 
 .title {
     font-family: 'lifecraft' , sans-serif;
     font-size: 80px;
     text-align: center;
-    text-transform: capitalize;
-    
+    text-transform: capitalize;    
 }
+
     
 
 .header {
@@ -28,8 +30,13 @@ body {
     
 }
 .botonindex {
+    background-color: red;   
+}
+.botonhistoria{
     background-color: red;
-    
+}
+.botonrecomendaciones{
+    background-color: red;
 }
 .headerContent{
     display: flex;
@@ -41,8 +48,9 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    
 }
-.r-content {
+.recontent {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
