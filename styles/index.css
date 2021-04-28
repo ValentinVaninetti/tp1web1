@@ -42,7 +42,7 @@ body {
     flex-direction: row;
     justify-content: space-evenly;
 }
-.content {
+.r-content {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -55,6 +55,12 @@ body {
 .rightContent {    
     align-content: flex-end;
     border: 1px solid rgb(45, 192, 45)
+}
+.content{
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'lifecraft' , sans-serif;
+
 }
 .footer {
     border: 1px solid pink
