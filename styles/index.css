@@ -27,7 +27,8 @@ a{
     height: 60px;
     background-color:black;
     opacity: 0.3;
-    border-style: dotted;
+    border-style: groove;
+    
 }
 .title {
     font-family: 'lifecraft' , sans-serif;
@@ -98,10 +99,10 @@ a{
     font-family: 'lifecraft' , sans-serif;
     text-align: justify;
 }
-.p-index{
+.textoinicio{
     color: rgb(143, 143, 22);
     text-decoration: double;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .footer {
