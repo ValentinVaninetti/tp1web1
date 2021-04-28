@@ -4,38 +4,50 @@
     background-size: cover;
     background-position: center;
 }
+.recomendaciones{
+    background-image: url("../images/reco.jpg");
 
-
+}
+.historia{
+    background-image: url("../images/historia.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+a{
+    text-decoration: none;
+    color: yellow;
+}
 .title {
     font-family: 'lifecraft' , sans-serif;
     font-size: 80px;
     text-align: center;
     text-transform: capitalize;    
 }
-
-    
-
 .header {
     display: flex;
     flex-direction: column;
-    border: 1px solid blue
+    
     
 }
 .logo {
-    border: 1px solid green
+    
+    
+    
     
 }
 .logo2 {
-    border: 1px solid black
+    
     
 }
-.botonindex {
+.boton-index {
     background-color: red;   
 }
-.botonhistoria{
+.boton-historia{
     background-color: red;
 }
-.botonrecomendaciones{
+.boton-recomendaciones{
     background-color: red;
 }
 .headerContent{
