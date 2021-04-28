@@ -35,6 +35,8 @@ a{
     flex-direction: row;
     justify-content: space-evenly;
     list-style-type: none;
+    font-size: 18px;
+    
     
 }
 .title {
@@ -58,11 +60,24 @@ a{
     flex-direction: column;   
     
 }
-.formInicio{
+.imputInicio{
+    width: 100%;
+  
+  
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  box-sizing: border-box;
 
 }  
-.formFeedback{
-    
+.imputfeed{
+    width: 100%;
+  padding: 22px 30px;
+  margin: 16px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 
 .boton-index {
