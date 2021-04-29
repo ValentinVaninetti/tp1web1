@@ -135,17 +135,7 @@ a{
     word-spacing: 5pt;
     line-height: 20pt;
 }
-}
-.textoinicio{
-    color: rgb(143, 143, 22);
-    text-decoration: double;
-    font-size: 18px;
-    margin-right: 25px;
-    margin-left: 25px;
 
-    word-spacing: 5pt;
-    line-height: 20pt;
-}
 
 table,th,tr,td {
     border: 1px solid black;
