@@ -127,6 +127,11 @@ a{
     justify-content: space-around;
     font-family: 'lifecraft' , sans-serif;
     text-align: justify;
+    color: rgb(143, 143, 22);
+    text-decoration: double;
+    font-size: 18px;
+    margin-right: 25px;
+    margin-left: 25px;
 }
 .textoinicio{
     color: rgb(143, 143, 22);
