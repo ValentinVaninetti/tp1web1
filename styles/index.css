@@ -132,6 +132,9 @@ a{
     font-size: 18px;
     margin-right: 25px;
     margin-left: 25px;
+    word-spacing: 5pt;
+    line-height: 20pt;
+}
 }
 .textoinicio{
     color: rgb(143, 143, 22);
