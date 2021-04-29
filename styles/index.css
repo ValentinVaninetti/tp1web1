@@ -27,6 +27,7 @@ a{
     height: 60px;
     background-color:black;
     border-style: groove;
+    border-color: goldenrod;
     opacity: 0.8;
     
 }
