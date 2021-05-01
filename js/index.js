@@ -15,7 +15,17 @@ function CrearCaptcha(){
 
   return text;     
 }
-     let botoncaptcha = document.querySelector("#botoncaptcha");
+     let btn = document.querySelector("#botoncaptcha");
+     btn.addEventListener("click", CrearCaptcha);
+     //Y LA PERRA SEGUIA Y SEGUIA COMO VAS A USAR ONCLICK PAPI SI NO ESTA EN EL HTML
+     //BUENO A VER HIJA DEPUTA
+     //Y NO SE, PERO CON ONCLICK NO ES PORFIADO
+     //COMO QUE NO?
+     //SOS PELOTUDO?????????? 
+     // si pero que tiene que ver
+     //MEJOR CERRA EL ORTO
+     //ahi voy a discord, pvp
+     //GG
      
      
      //let btnenviar = document.querySelector ("btn-enviar");
