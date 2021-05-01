@@ -1,5 +1,10 @@
 "use strict";
 
+let btn = document.querySelector("#botoncaptcha");
+
+btn.addEventListener("click", CrearCaptcha());
+
+
 function CrearCaptcha(){
   console.log ('entre');
 
@@ -13,10 +18,10 @@ function CrearCaptcha(){
     document.querySelector("#captcha").innerHTML=text;
       
 
-  return text;     
+  return text; 
 }
-     let btn = document.querySelector("#botoncaptcha");
-     btn.addEventListener("click", CrearCaptcha);
+     
+     
      //Y LA PERRA SEGUIA Y SEGUIA COMO VAS A USAR ONCLICK PAPI SI NO ESTA EN EL HTML
      //BUENO A VER HIJA DEPUTA
      //Y NO SE, PERO CON ONCLICK NO ES PORFIADO
