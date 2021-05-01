@@ -2,8 +2,8 @@
 
     let input = document.querySelector("#captchaingresado");
     let btn = document.querySelector("#botoncaptcha");
-    let check = document.querySelector("#Check");
-    check.addEventListener("click", CrearCaptcha);
+    //let generate = document.querySelector("#generate");
+    generate.addEventListener("click", CrearCaptcha);
     btn.addEventListener("click", verificarCaptcha);
 
 
@@ -18,37 +18,31 @@
         text += possible.charAt(Math.floor(Math.random() * possible.length));
       }
       console.log (text);
-      document.querySelector("#captcha").innerHTML=text;
+      document.querySelector("#captcha").innerHTML = text;
       return text;   
     }
     
 
         function verificarCaptcha(){
-          event.preventDefault();
-          if (input.value == text){
-          alert("Bien")
+          //event.preventDefault();
+          document.querySelector("#botoncaptcha");
+          let captchagenerado = document.querySelector('text');
+          let captchaingresado = document.querySelector('input');
+          if (captchaingresado.value == captchagenerado){
+            console.log()
+          return true;
 
               } else {
-                alert("morite")
-              }
-                
+                return false;  
+                     
 
+          }
+          
         }
-    
-  
-
-     
-     
-     //Y LA PERRA SEGUIA Y SEGUIA COMO VAS A USAR ONCLICK PAPI SI NO ESTA EN EL HTML
-     //BUENO A VER HIJA DEPUTA
-     //Y NO SE, PERO CON ONCLICK NO ES PORFIADO
-     //COMO QUE NO?
-     //SOS PELOTUDO?????????? 
-     // si pero que tiene que ver
-     //MEJOR CERRA EL ORTO
-     //ahi voy a discord, pvp
-     //GG
-     
+        
+      
+      
+         
      
      //let btnenviar = document.querySelector ("btn-enviar");
      //btnenviar.addEventListener ("click", validarcaptcha)
@@ -106,4 +100,4 @@
     //divResultado.appendChild(link);
     
   //}
-//});
+//})
