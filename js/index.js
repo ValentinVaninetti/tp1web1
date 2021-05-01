@@ -1,103 +1,32 @@
 "use strict";
 
-    let input = document.querySelector("#captchaingresado");
-    let btn = document.querySelector("#botoncaptcha");
-    //let generate = document.querySelector("#generate");
-    generate.addEventListener("click", CrearCaptcha);
-    btn.addEventListener("click", verificarCaptcha);
+let btnVerify = document.querySelector("#btn_verify_captcha");
+let generate = document.querySelector("#generateCaptcha_btn");
+generate.addEventListener("click", CrearCaptcha);
+btnVerify.addEventListener("click", verificarCaptcha);
+let generatedCaptcha;
 
 
-    
-    function CrearCaptcha(){
-      console.log ('entre');
-      
-      let text = "";
-      let possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
-      
-      for (let i = 0; i < 5; i++){
-        text += possible.charAt(Math.floor(Math.random() * possible.length));
-      }
-      console.log (text);
-      document.querySelector("#captcha").innerHTML = text;
-      return text;   
-    }
-    
+function CrearCaptcha() {
+  let captcha = "";
+  let possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
 
-        function verificarCaptcha(){
-          //event.preventDefault();
-          document.querySelector("#botoncaptcha");
-          let captchagenerado = document.querySelector('text');
-          let captchaingresado = document.querySelector('input');
-          if (captchaingresado.value == captchagenerado){
-            console.log()
-          return true;
+  for (let i = 0; i < 5; i++) {
+    captcha += possible.charAt(Math.floor(Math.random() * possible.length));
+  }
+  document.querySelector("#captcha").innerHTML = captcha;
+  generatedCaptcha = captcha;
+}
 
-              } else {
-                return false;  
-                     
-
-          }
-          
-        }
-        
-      
-      
-         
-     
-     //let btnenviar = document.querySelector ("btn-enviar");
-     //btnenviar.addEventListener ("click", validarcaptcha)
-
-
-
-
-///function CrearCaptcha(){
+function verificarCaptcha() { 
+  event.preventDefault();
+  let input = document.querySelector("#input_captcha"); 
+  console.log(input.value == generatedCaptcha);
+  //return input.value === generatedCaptcha;
+  if (input.value == generatedCaptcha) {
+    return true;    
+  } else {
+    return false;    
+  }
   
-  //let c1 = Math.floor((Math.random() * 9) +1);
-  //let c2 = 
-  //c1= Math.Floor
-  //alert((c1) + (c2))
-  
-//}
-//let captcha = document.querySelector("#captcha")
-//captcha.addEventListener("click" , CrearCaptcha)
-
-
-//let btnenviar = document.querySelector ("btn-enviar");
-//btnenviar.addEventListener ("click", validarcaptcha)
-
-
-
-
-
-
-
-
-
-
-//let btnEnviar = document.getElementById("send");
-
-//btnEnviar.addEventListener("click", function(){
-                              // Verificar que lo que escribió el usuario sea igual a 8
-                              //Primero busco el input
-  //let inputCaptcha = document.getElementById("captcha");
-                               //Verifico el dato
-  //let divResultado = document.getElementById("resultado");
-  //if (inputCaptcha.value == 8) {
-                               //El dato es igual a 8
-                                //alert("esta bien");
-                                //divResultado.innerText = "Mensaje enviado";
-
-    //let encabezado = document.createElement("h1");
-    //encabezado.innerText = "Mensaje Enviado";
-    //divResultado.appendChild(encabezado)
-  //} else {
-                                // El dato es distinto a 8
-                                //alert("esta mal");
-                                //divResultado.innerHTML = "Captcha incorrecto"
-    //let link = document.createElement("a");
-    //link.innerText = "Ir a google";
-    //link.href = "www.google.com";
-    //divResultado.appendChild(link);
-    
-  //}
-//})
+}
