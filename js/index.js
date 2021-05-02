@@ -12,7 +12,7 @@ function CrearCaptcha() {
   let possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
 
   for (let i = 0; i < 5; i++) {
-    captcha += possible.charAt(Math.floor(Math.random() * possible.length));
+    captcha =+ possible.charAt(Math.floor(Math.random() * possible.length));
   }
   document.querySelector("#captcha").innerHTML = captcha;
   generatedCaptcha = captcha;
@@ -20,13 +20,17 @@ function CrearCaptcha() {
 
 function verificarCaptcha() { 
   event.preventDefault();
-  let input = document.querySelector("#input_captcha"); 
+  let input = document.querySelector("#input_captcha");
+  let respuesta = document.querySelector("#verificationResult") 
   console.log(input.value == generatedCaptcha);
   //return input.value === generatedCaptcha;
-  if (input.value == generatedCaptcha) {
+  if (input.value == generatedCaptcha) {   
+    respuesta.innerHTML = "Captcha correcto" 
     return true;    
   } else {
-    return false;    
+    respuesta.innerHTML = "Captcha incorrecto"
+    return false; 
+       
   }
   
 }
