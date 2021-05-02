@@ -12,7 +12,7 @@ function CrearCaptcha() {
   let possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
 
   for (let i = 0; i < 5; i++) {
-    captcha =+ possible.charAt(Math.floor(Math.random() * possible.length));
+    captcha += possible.charAt(Math.floor(Math.random() * possible.length));
   }
   document.querySelector("#captcha").innerHTML = captcha;
   generatedCaptcha = captcha;
