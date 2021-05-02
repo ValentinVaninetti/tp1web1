@@ -24,7 +24,7 @@ a{
 }
 .nav-bar{
     width: 100%;
-    height: 60px;
+    height: 80px;
     background-color:black;
     border-style: groove;
     border-color: goldenrod;
@@ -95,19 +95,12 @@ a{
   box-sizing: border-box;
 }
 
-.boton-index {
+.boton-index , .boton-foro , .boton-historia , .boton-recomendaciones{
     background-color: red;
     font-size: 15px;
-    
-}
-.boton-historia{
-    background-color: red;
-    font-size: 15px;
+    width: 200px;
+    padding: 10px;    
 
-}
-.boton-recomendaciones{
-    background-color: red;
-    font-size: 15px;
 }
 .headerContent{
     display: flex;
