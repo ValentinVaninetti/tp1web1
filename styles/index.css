@@ -20,7 +20,7 @@
 }
 a{
     text-decoration: none;
-    color: yellow;    
+    color: yelllow;    
 }
 .nav-bar{
     width: 100%;
@@ -125,7 +125,7 @@ a{
     justify-content: space-around;
     font-family: 'lifecraft' , sans-serif;
     text-align: justify;
-    color: rgb(143, 143, 22);
+    color: white;
     text-decoration: double;
     font-size: 18px;
     margin-right: 25px;
