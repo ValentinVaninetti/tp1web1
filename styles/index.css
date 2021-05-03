@@ -130,19 +130,18 @@ table,th,tr,td {
     border: 1px solid black;
     font-family: 'lifecraft' , sans-serif;
     
-    
 }
 
 .hordeTable{
     background-color: rgba(155, 20, 20, 0.747);
-    width: 100%;
+    width: 75%;
 }
 .alliancetable{
     background-color: rgb(33, 33, 155);
-    width: 100%;
+    width: 75%;
 }
 .pandatable{
-    width: 100%;
+    width: 75%;
     background-color: white;
 }
 
