@@ -1,10 +1,5 @@
-.index {
-    background-image: url("../images/index2.jpg");    
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-.recomendaciones{
+
+.inicio .recomendaciones{
     background-image: url("../images/reco.jpg");
     background-repeat: no-repeat;
     background-size: cover;
