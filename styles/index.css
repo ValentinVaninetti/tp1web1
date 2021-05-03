@@ -110,12 +110,6 @@ a{
     
 }
 
-.recontent {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    
-}
 
 .content{
     flex-direction: row;
@@ -135,6 +129,7 @@ a{
 table,th,tr,td {
     border: 1px solid black;
     font-family: 'lifecraft' , sans-serif;
+    
     
 }
 
