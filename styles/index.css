@@ -95,7 +95,7 @@ a{
   box-sizing: border-box;
 }
 
-.boton-index , .boton-foro , .boton-historia , .boton-recomendaciones{
+.boton-index ,.boton-recomendaciones{
     background-color: rgb(77, 11, 11);
     font-size: 20px;
     width: 200px;
@@ -103,6 +103,15 @@ a{
     font-family: 'lifecraft' , sans-serif;    
 
 }
+.boton-foro , .boton-historia{
+    background-color: rgb(33,33,155);
+    font-size: 20px;
+    width: 200px;
+    padding: 10px;
+    font-family: 'lifecraft' , sans-serif;    
+
+}
+
 .headerContent{
     display: flex;
     flex-direction: row;
@@ -125,8 +134,7 @@ a{
     line-height: 20pt;
 }
 
-
-table,th,tr,td {
+th,tr,td {
     border: 1px solid black;
     font-family: 'lifecraft' , sans-serif;
     
@@ -135,6 +143,7 @@ table,th,tr,td {
 .hordeTable{
     background-color: rgba(155, 20, 20, 0.747);
     width: 75%;
+    
 }
 .alliancetable{
     background-color: rgb(33, 33, 155);
