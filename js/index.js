@@ -4,6 +4,7 @@ let btnVerify = document.querySelector("#btn_verify_captcha");
 let generate = document.querySelector("#generateCaptcha_btn");
 generate.addEventListener("click", CrearCaptcha);
 btnVerify.addEventListener("click", verificarCaptcha);
+let botonIndex = document.querySelector("#boton-index");
 let generatedCaptcha;
 
 
