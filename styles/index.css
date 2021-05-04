@@ -1,4 +1,11 @@
-.index, .recomendaciones{
+.index {
+    background-image: url("../images/index2.jpg");    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.recomendaciones{
     background-image: url("../images/reco.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -13,7 +20,7 @@
 }
 a{
     text-decoration: none;
-    color: yellow;    
+    color: yelllow;    
 }
 .nav-bar{
     width: 100%;
@@ -145,7 +152,7 @@ a{
     justify-content: space-around;
     font-family: 'lifecraft' , sans-serif;
     text-align: justify;
-    color: rgb(143, 143, 22);
+    color: rgb(230, 230, 230);
     text-decoration: double;
     font-size: 18px;
     margin-right: 25px;
