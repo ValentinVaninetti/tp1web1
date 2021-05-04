@@ -144,7 +144,7 @@ a{
 .content{
     flex-direction: row;
     justify-content: space-around;
-    font-family: 'lifecraft' , sans-serif;
+    font-family:  sans-serif;
     text-align: justify;
     color: rgb(44, 221, 21);
     text-decoration: double;
