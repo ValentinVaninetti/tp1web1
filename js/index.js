@@ -2,9 +2,11 @@
 
 let btnVerify = document.querySelector("#btn_verify_captcha");
 let generate = document.querySelector("#generateCaptcha_btn");
+let btn = document.querySelector("#btnIndex");
+btn.addEventListener("click",botonNav);
 generate.addEventListener("click", CrearCaptcha);
 btnVerify.addEventListener("click", verificarCaptcha);
-let botonIndex = document.querySelector("#boton-index");
+
 let generatedCaptcha;
 
 
@@ -36,5 +38,7 @@ function verificarCaptcha() {
   
 }
 
-
+function botonNav(){
+  window.location.href = "file:///C:/Users/alguien/Desktop/tp/trabajoPracticoWeb1/historia.html"
+}
 

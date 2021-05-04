@@ -1,17 +1,11 @@
-.index {
-    background-image: url("../images/index2.jpg");    
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
 
-.recomendaciones{
+.index, .recomendaciones{
     background-image: url("../images/reco.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
-.historia{
+.historia, .foro{
     background-image: url("../images/historia.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -20,7 +14,7 @@
 }
 a{
     text-decoration: none;
-    color: yelllow;    
+    color: yellow;    
 }
 .nav-bar{
     width: 100%;
@@ -152,7 +146,7 @@ a{
     justify-content: space-around;
     font-family: 'lifecraft' , sans-serif;
     text-align: justify;
-    color: rgb(230, 230, 230);
+    color: rgb(44, 221, 21);
     text-decoration: double;
     font-size: 18px;
     margin-right: 25px;
