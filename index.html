@@ -11,34 +11,12 @@
 </head>
 <body class="index">
     <div class="header">
-        <div class="headerContent">
-            <div class="formInicio">
-                <form>
-                    usuario: <input class="imputInicio" type="text" name="usuario" value="" />
-                    password: <input class="imputInicio" type="text" name="password" value="" />
-                </form>
-                <div class="divcaptcha" id="divcaptcha">
-                    <input id="input_captcha" type="text" placeholder="captcha">
-                    <h2 type="text" id="captcha"></h2>
-                    <h3 type="text" id="verificationResult"></h3>
-                </div>
-                <button id="btn_verify_captcha" type="button">Enviar</button>
-                <button id="generateCaptcha_btn" type="button">Generate</button>
-
-            </div>
-            <div class="title">
-                <h1 class="titulo">
-                    [Welcome]
-                </h1>
-            </div>
-            <div class="formFeedback">
-                feedback: <textarea class="imputfeed" type="text" name="feed" value=""></textarea>
-                <button>
-                    Submit
-                </button>
-            </div>
-
+        <div class="title">
+            <h1 class="titulo">
+                [Welcome]
+            </h1>
         </div>
+        
         <div class="nav-bar">
             
                 <ul class="nav">
@@ -55,12 +33,39 @@
                         <a href="Foro.html"><button class="boton-foro"> Foro</button></a>
                     </li>
                 </ul>
-            
+                
+            </div>
         </div>
+        
+        <div class="headerContent">
+            
+            <div class="formInicio">
+                
+                <form class="formularios">
+                    usuario: <input class="imputInicio" type="text" name="usuario" value="" />
+                    password: <input class="imputInicio" type="text" name="password" value="" />
+                    <button id="generateCaptcha_btn" type="button">Generate</button>
+                </form>
+                <input id="input_captcha" type="text" placeholder="captcha">
+                <h2 type="text" id="captcha"></h2>
+                <h3 type="text" id="verificationResult"></h3>
+                <button id="btn_verify_captcha" type="button">Enviar</button>
+            </div> 
+            
+            <h2 class="titulo2">World of Warcraft</h2>
+            
+            <div class="formFeedback">
+                feedback: <textarea class="imputfeed" type="text" name="feed" value=""></textarea>
+                <button>
+                        Submit
+                </button>
+            </div>
+        </div>  
+
     </div>
-    <h2 class="titulo2">World of Warcraft</h2>
-    <h2 class="titulo2">¿Que es?</h2>
+    
     <div class="content">
+        <h2 class="titulo2">¿Que es?</h2>
         
         <p class="textoinicio">
             World of Warcraft (abreviado como WoW) es un videojuego de rol multijugador masivo en línea desarrollado por
