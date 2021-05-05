@@ -94,14 +94,14 @@
 .formInicio{
     color: rgb(77, 11, 11);
     text-transform: capitalize;
-    font-size: 20px;
+    font-size: 30px;
     -webkit-text-stroke-width: 0.2px;
     -webkit-text-stroke-color: goldenrod;
 }
 .formFeedback{
     color: rgb(77, 11, 11);
     text-transform: capitalize;
-    font-size: 20px;
+    font-size: 30px;
     -webkit-text-stroke-width: 0.2px;
     -webkit-text-stroke-color: goldenrod;
 }
@@ -182,5 +182,6 @@ th,tr,td {
 }
 .pandatable{
     background-color: white;
-    width: 100%;    
+    width: 100%;
+    margin-bottom: 60px;    
 }
