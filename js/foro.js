@@ -1,7 +1,6 @@
 "use strict";
 
 let inputDiscusion = document.querySelector("#input-discusion");
-
 let elfeed = document.querySelector(".feed");
 inputDiscusion.addEventListener("click", verComentario);
 let btnpublicar = document.querySelector("#btn_publicar");
@@ -22,7 +21,6 @@ function publicarComentario() {
     coment.innerHTML = inputDiscusion.value;
     feed.appendChild(span);
     feed.appendChild(coment);
-
     elfeed.appendChild(feed);
     
 

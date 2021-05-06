@@ -92,7 +92,7 @@
     font-size: 80px;
     font-family: 'lifecraft' , sans-serif;
     text-align: center;
-    margin: 40px 40px 40px 40px;
+    margin: 40px 0px 40px 0px;
     color: rgb(4, 88, 4);
     -webkit-text-stroke-width: 3px;    
     -webkit-text-stroke-color: goldenrod;
@@ -228,6 +228,7 @@ th,tr,td {
 .login{
     height: 300px;
     max-height: 300px;
+    width: 200px;
     max-width: 280px;
     
 }

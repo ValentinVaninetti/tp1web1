@@ -25,12 +25,15 @@ function verificarCaptcha() {
   console.log(input.value == generatedCaptcha);
   //return input.value === generatedCaptcha;
   if (input.value == generatedCaptcha) {   
-    respuesta.innerHTML = "Captcha correcto" 
-    return true;    
+    respuesta.innerHTML = "Captcha correcto"
+    input.value = "";     
+    return true;        
   } else {
     respuesta.innerHTML = "Captcha incorrecto"
     return false; 
-       
+         
   }
   
+  
 }
+
