@@ -38,20 +38,39 @@
         </div>
         
         <div class="headerContent">
+
+            <div class="login">
             
-            <div class="formInicio">
+                <div class="formInicio">
+
+                    
+                    <form class="formularios">
+                        usuario: <input class="formImput" placeholder="user name" class="imputInicio" type="text" name="usuario" value="" />
+                        password: <input class="formImput" placeholder="password" class="imputInicio" type="password" name="password" value="" />
+                    
+                    </form>
+                    
+                </div>
+                <div class="divCaptcha">
+                    <div class="imputCaptcha">
+                        <input class="formCaptcha" id="input_captcha" type="text" placeholder="captcha">                
+                        <button class="boton-Captcha" id="generateCaptcha_btn" type="button">Generate</button>
+                    </div>
+                    <h3 type="text" id="captcha"></h3> 
+
+                    <div class="verification">
+
+                    <h3 type="text" id="verificationResult"></h3>
+
+                    </div>
+                    
+                    <button id="btn_verify_captcha" type="button">Enviar</button>                
                 
-                <form class="formularios">
-                    usuario: <input class="imputInicio" type="text" name="usuario" value="" />
-                    password: <input class="imputInicio" type="text" name="password" value="" />
-                    <button id="generateCaptcha_btn" type="button">Generate</button>
-                </form>
-                <input id="input_captcha" type="text" placeholder="captcha">
-                <h2 type="text" id="captcha"></h2>
-                <h3 type="text" id="verificationResult"></h3>
-                <button id="btn_verify_captcha" type="button">Enviar</button>
-            </div> 
-            
+                    
+                
+                </div> 
+            </div>
+
             <h2 class="titulo2">World of Warcraft</h2>
             
             <div class="formFeedback">

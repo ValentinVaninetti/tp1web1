@@ -55,6 +55,8 @@
 .footer-left {
     list-style: none;
     margin-left: 10px;
+    display: flex;
+    flex-direction: row;
        
 }
 .footer-right{
@@ -63,7 +65,7 @@
 }
 
 .footer-item {
-    margin-left: 5px;
+    margin-left: 20px;
 }
 .nav {
     display: flex;
@@ -95,17 +97,35 @@
     flex-direction: column;     
 }
 .formInicio{
-    color: rgb(77, 11, 11);
+    color: rgb(0, 0, 0);
     text-transform: capitalize;
+    font-weight: bold;    
     font-size: 30px;
     -webkit-text-stroke-width: 0.2px;
     -webkit-text-stroke-color: goldenrod;
-    width: 13,1%;
+    width: 13,1%;    
     
 }
+.formImput{
+    width: 13,1%;
+}
+.imputCaptcha{
+    display: flex;
+    flex-direction: row;
+    width: 13,1%;
+}
+.formCaptcha{
+    width: 97px;
+    margin-top: 10px;
+}
+.boton-Captcha{
+    margin-top: 10px;
+}
+
 .formFeedback{
-    color: rgb(77, 11, 11);
+    color: rgb(0, 0, 0);
     text-transform: capitalize;
+    font-weight: bold;    
     font-size: 30px;
     -webkit-text-stroke-width: 0.2px;
     -webkit-text-stroke-color: goldenrod;
@@ -113,7 +133,10 @@
     
 }
 #verificationResult{
-    font-size: 20px;
+    font-size: 30px;
+}
+#captcha{
+    font-size: 30px;
 }
 .imputInicio{
   width: 100%;  
@@ -195,4 +218,11 @@ th,tr,td {
     width: 100%;
     margin-bottom: 60px;    
 }
-
+.login{
+    max-height: 400px;
+    max-width: 280px;
+    
+}
+.verification{
+    width: 200px;
+}
