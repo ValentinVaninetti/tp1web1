@@ -98,6 +98,15 @@
     -webkit-text-stroke-color: goldenrod;
 
 }
+
+.titulo3{
+ font-size: 60px;
+ font-family: 'lifecraft' , sans-serif;
+ color: rgb(4, 88, 4);
+ -webkit-text-stroke-width: 3px;    
+ -webkit-text-stroke-color: goldenrod;
+ 
+}
 .header {
     display: flex;
     flex-direction: column;     

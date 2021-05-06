@@ -22,8 +22,7 @@ function verificarCaptcha() {
   event.preventDefault();
   let input = document.querySelector("#input_captcha");
   let respuesta = document.querySelector("#verificationResult") 
-  console.log(input.value == generatedCaptcha);
-  //return input.value === generatedCaptcha;
+  console.log(input.value == generatedCaptcha);  
   if (input.value == generatedCaptcha) {   
     respuesta.innerHTML = "Captcha correcto"
     input.value = "";     
