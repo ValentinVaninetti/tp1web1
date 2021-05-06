@@ -34,3 +34,14 @@ function verificarCaptcha() {
   }
   
 }
+
+
+let btnpublicar = document.querySelector("#btn-publicar")
+let comentarios = document.querySelector("#feed")
+btnpublicar.addEventListener("click", publicarcomentario)
+
+function publicarcomentario () {
+  let comentarios = document.createElement("div"); //si te aparece en gris es por que la estas declarando mal o por que en realidad va a ajuera? dice esto: comentarios' is declared but its value is never read
+  post.className 
+
+}
