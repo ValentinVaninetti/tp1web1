@@ -91,6 +91,10 @@
     font-family: 'lifecraft' , sans-serif;
     text-align: center;
     margin: 40px 40px 40px 40px;
+    color: rgb(10, 179, 10);
+    -webkit-text-stroke-width: 3px;    
+    -webkit-text-stroke-color: goldenrod;
+
 }
 .header {
     display: flex;
@@ -219,7 +223,8 @@ th,tr,td {
     margin-bottom: 60px;    
 }
 .login{
-    max-height: 400px;
+    height: 300px;
+    max-height: 300px;
     max-width: 280px;
     
 }
