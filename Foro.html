@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/index.css">
     <title>Foro</title>
+    <link rel="shortcut ico" href="../images/wowcito.ico">
 </head>
 <body class="foro">
+    
     <div class="header">
 
         <div class="headerContent">
@@ -38,24 +40,31 @@
     </div>
     <div>
         <h2 class="titulo2"> Bienvenidos al foro</h2>
-    </div>
-    <div class="content">
-        <textarea name="texto_Foro" id="" cols="30" rows="10"></textarea>
-    </div>
+    </div>   
     
     <div class="opiniones">
-        <input id="inputdiscusion"type="text" name="discusion" placeholder="Comentarios">
+        <input id="input-discusion"type="text" name="discusion" placeholder="Comentarios">
     </div>
-    <div class="botonfeed">
-        <button id="btn-publicar">Publicar</button>
-    </div>
-    <div class="feed">
-        <div class="coment">
-            <span>Comentario de x:</span>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi doloremque distinctio nihil deserunt ipsa saepe ea repellat impedit voluptates repudiandae. Quasi sequi ratione, inventore vitae quae illum cupiditate corrupti esse.</p>
-        </div> 
-    </div>
+    <div class="topics"> 
+            <div class="publish">   
+                <div class="feed">
+                        <div>
+                            <span>Murloc dice:</span>
+                            <p>mrglgmrglmrglgglglrmlglrlgmlrllgmmrrrmrrrglglglgglrmmrglrl</p>
+                        </div>
+                </div>
 
+                <div>
+                    <button id="btn_publicar" type="button">Publicar</button>
+                </div> 
+                <div class="imagen-murloc">
+                        <a href="https://youtu.be/qMPpnCvCZvw"><img class="murloc" src="../trabajoPracticoWeb1/images/murloc.jpg" alt="un murloc con una espadota"></a>
+                    </div>   
+            </div>            
+                    
+                
+                    
+    </div>
     <div class="footer">
         <ul class="footer-left">
             <li class="footer-item">Valentin Vaninetti</li>
@@ -71,7 +80,7 @@
     </div>
 
 
-    <script src="./js/index.js"> </script>
+    <script src="./js/foro.js"> </script>
     
 </body>
 </html>
