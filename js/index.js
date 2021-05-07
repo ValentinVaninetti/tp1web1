@@ -4,12 +4,13 @@ let btnVerify = document.querySelector("#btn_verify_captcha");
 let generate = document.querySelector("#generateCaptcha_btn");
 generate.addEventListener("click", CrearCaptcha);
 btnVerify.addEventListener("click", verificarCaptcha);
-let generatedCaptcha;
+let generatedCaptcha;//var global
 
 
 function CrearCaptcha() {
   let captcha = "";
   let possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+  
 
   for (let i = 0; i < 5; i++) {
     captcha += possible.charAt(Math.floor(Math.random() * possible.length));
